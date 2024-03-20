@@ -4,7 +4,7 @@ import './App.css'
 import Layout from './components/Layout'
 import PostsPage from './pages/PostsPage'
 import SinglePostPage from './pages/SinglePostPage'
-import LoginPage from './pages/LoginPage.jsx'
+import Create from './pages/CreatePage.jsx'
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
                 <Route path='/' element={<Layout/>}>
                     <Route path='posts' element={<PostsPage/>}/>
                     <Route path='posts/:postId' element={<SinglePostPage/>}/>
-                    <Route path='login' element={<LoginPage/>}/>
+                    <Route path='create' element={<Create/>}/>
 
                     <Route path='*' element={<h4>Ошибка 404: Такой страницы не существует</h4>}/>
                 </Route>

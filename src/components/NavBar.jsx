@@ -11,7 +11,7 @@ const NavBar = () => {
                     <NavLink className={isActiveMenu} to="/posts">Посты</NavLink>
                 </li>
                 <li>
-                    <NavLink className={isActiveMenu} to="/login">Создать Пост</NavLink>
+                    <NavLink className={isActiveMenu} to="/create">Создать Пост</NavLink>
                 </li>
             </ul>
         </nav>
